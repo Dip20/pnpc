@@ -127,3 +127,17 @@ body{
 .space{
   height: 10vh;
 }
+.bg-custom{
+  border:none;
+
+}
+.four-icon-text{
+    color: var(--primarybg);
+}
+.collapsed, .collapsed:active , .collapsed:focus{
+  /* border:none!important;
+  outline: none!important;
+  box-shadow: none!important; */
+  /* not working */
+
+}
