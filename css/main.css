@@ -1,0 +1,129 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+/* CSS rules to specify families
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+ */
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@1,500&display=swap');
+/*
+CSS rules to specify families
+
+font-family: 'Mali', cursive;
+ */
+
+:root{
+  --primarybg:#0583F2;
+  --secondarybg:#CEDEF2;
+  --fontcolor: #F2F2F2;
+  --hovercolor:#CEDEF2;
+  --black:#213A40;
+  --white:#F2F2F2;
+
+}
+
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+/* nav style here */
+.navbar-brand{
+  font-family: 'Mali', cursive;
+  color: var(--white)!important;
+  font-size: 26px;
+
+}
+.bg-light{
+  background-color: var(--primarybg)!important;
+}
+.navbar li{
+  padding: 0px 10px;
+}
+.nav-link{
+  color: #fff!important;
+}
+.nav-link:hover{
+  opacity: 0.8;
+  color: #F2F2F2;
+
+}
+
+.navbar-toggler{
+  border:none!important;
+  outline: none!important;
+  color: #fff!important;
+  font-size: 24px!important;
+}
+
+/* hero section */
+.hero-heading small{
+  font-size: 16px;
+}
+.hero-banner img{
+  margin-top: 100px;
+  /* width: 360px;
+  height: 360px; */
+}
+
+/* hero register form */
+.join-text{
+  color: var(--primarybg)!important;
+}
+.underline-start{
+  position: relative;
+
+}
+.underline-start::after{
+  content: '';
+  height: 2px;
+  width: 8%;
+  background-color: var(--primarybg);
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+}
+
+.register-frm{
+  /* background-color: var(--secondarybg); */
+}
+.form-control , .form-control:focus{
+  border:none;
+  border-bottom: 1px solid var(--primarybg)!important;
+  /* border-radius: 0px!important; */
+  outline:none!important;
+  box-shadow: none!important;
+  background-color: transparent;
+}
+.register-frm label{
+  font-size: 14px!important;
+  padding-left: 8px;
+}
+/* custom css  */
+.btn-warning .uil-arrow-right{
+  display: inline-block;
+  transition: 0.4s ease-in;
+}
+.btn-warning:hover .uil-arrow-right{
+   transform: translateX(30%);
+}
+.btn-warning{
+  opacity: 1;
+}
+
+
+/* underline-middle */
+.underline-middle{
+  position: relative;
+
+}
+.underline-middle::after{
+  content: '';
+  height: 2px;
+  width: 7%;
+  background-color: var(--primarybg);
+  position: absolute;
+  left: 45%;
+  bottom: -5px;
+}
+.space{
+  height: 10vh;
+}
